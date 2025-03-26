@@ -91,7 +91,7 @@ document.getElementById("com-btn2").addEventListener("click",function(){
     const newTotalCount = totalCount.innerText;
     updateTotalCount = parseInt(newTotalCount)+1;
     totalCount.innerText=updateTotalCount;
-    console.log(updateCount)
+    
     if(updateCount<=0){
         alert('Congrates!!! you have completed all current task.')
     }
